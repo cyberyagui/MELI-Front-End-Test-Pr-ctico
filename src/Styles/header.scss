@@ -1,0 +1,36 @@
+@import "./variables.scss";
+
+.searchContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0% 10% 0% 10%;
+}
+.item2 {
+  display: inline-flex;
+  width: 100%;
+}
+.serchInput {
+  margin-left: 2%;
+  position: relative;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  font-size: 18px;
+  height: 70%;
+  width: 100%;
+  padding: 1% 0% 1% 1%;
+  border: none;
+}
+:focus {
+  outline: none;
+}
+.searchIc {
+  padding: 1% 1% 1% 1%;
+  cursor: pointer;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  justify-content: center;
+  align-items: center;
+}

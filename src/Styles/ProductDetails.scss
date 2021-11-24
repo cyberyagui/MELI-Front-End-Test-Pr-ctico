@@ -1,0 +1,85 @@
+@import "./variables.scss";
+
+.background-details {
+  background-color: $colorG03;
+  padding: 0% 10% 0% 10%;
+}
+.categories-details {
+  background-color: $colorG03;
+  color: $colorG02;
+  font-size: 14px;
+  margin: 0;
+}
+.container-details {
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(6, auto);
+  margin: 0 auto;
+  padding: 32px;
+}
+.details01 {
+  font-size: 14px;
+}
+.titleDetails {
+  margin: 16px 0px 0px 0px;
+}
+.details02 {
+  font-size: 24px;
+  color: $colorB;
+}
+.details03 {
+  font-size: 46px;
+  color: $colorB;
+  margin: 32px 0px 0px 0px;
+  display: flex;
+  align-items: flex-start;
+  align-content: stretch;
+}
+.decimals {
+  font-size: 0.5em;
+  line-height: 1.4em;
+}
+
+.details04 button {
+  text-align: center;
+  color: white;
+  border-color: transparent;
+  color: #fff;
+  background-color: $colorBlue;
+  box-shadow: 0 0 0 0 #fff;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  border-radius: 6px;
+  margin: 32px 32px 0px 0px;
+}
+.details05 {
+  size: 680px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin: 0 auto;
+
+  grid-row-start: 1;
+  grid-row-end: 5;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.details06 {
+  font-size: 28px;
+  color: $colorB;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  padding: 32px 0px 32px 0px;
+}
+.details07 {
+  font-size: 16px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  padding-bottom: 32px;
+  color: $colorG02;
+}
